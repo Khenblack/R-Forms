@@ -38,7 +38,7 @@ const FormFields = (props) => {
         switch(values.element) {
             case 'input': 
                 formTemplate = (
-                    <div>
+                    <div className='form_element'>
                         {showLabel(values.label, values.labelText)}
                         <input 
                             {...values.config}
